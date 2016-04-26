@@ -1,0 +1,14 @@
+<h1>Welcome to 50 Before 30</h1>
+
+<p>30 years to visit 50 states</p>
+
+<svg height="630" width="930">
+
+	{{#each model as |state|}}
+	
+		<path {{action "stateDetails" state}} d="{{state.path}}" id="visited-{{state.visited}}"> </path>
+		<text {{action "stateDetails" state}} x="{{state.x}}" y="{{state.y}}" id="text-visited-{{state.visited}}"> {{state.abv}}  </text>
+	{{/each}}
+</svg>
+
+
