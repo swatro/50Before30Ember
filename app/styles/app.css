@@ -1,23 +1,23 @@
 #visited-true{
-	fill:#673AA7;
+	fill:#6c5b8b;
 	cursor: pointer;
 }
 
 #visited-false{
-	fill:#B6B6B6;
+	fill:#A9A9A9;
 }
 
 #visited-true:hover{
-	fill:#673AB7;
+	fill:#6c5b9b;
 }
 
 #text-visited-true {
-	fill: white;
+	fill: #D3D3D3;
 	cursor: pointer;
 }
 
 #text-visited-false {
-	fill: white;
+	fill: #D3D3D3;
 	cursor: default;
 }
 
