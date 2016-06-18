@@ -17,7 +17,11 @@ body{
 img {
 	 box-shadow: 8px 8px 10px #aaa;
 	 margin: 1em;
-	 border-radius: 1em
+	 border-radius: 1em;
+	 height: auto; 
+     width: auto; 
+     max-width: 30em; 
+     max-height: 30em;
 }
 
 #visited-true{
