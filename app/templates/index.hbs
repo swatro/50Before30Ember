@@ -1,18 +1,22 @@
-<div class="jumbotron">
-	<div class="container">
-		<h1> 50 Before 30</h1>
+<div class="header">
+	<div class="container centered">
+		<h1> 50 before 30</h1>
 		<p> 30 years to visit 50 states</p>
 	</div>
 </div>
 
-<div class="container"> 
-	<svg height="630" width="930">
-	{{#each model as |state|}}
+<div class="map-body">
+	<div class="container centered"> 
+		<svg height="630" width="930">
+		{{#each model as |state|}}
 
-		<path {{action "stateDetails" state}} d="{{state.path}}" id="visited-{{state.visited}}"> </path>
-		<text {{action "stateDetails" state}} x="{{state.x}}" y="{{state.y}}" id="text-visited-{{state.visited}}"> {{state.abv}}  </text>
-	{{/each}}
-	</svg>
+			<path {{action "stateDetails" state}} d="{{state.path}}" id="visited-{{state.visited}}"> </path>
+			<text {{action "stateDetails" state}} x="{{state.x}}" y="{{state.y}}" id="text-visited-{{state.visited}}"> {{state.abv}}  </text>
+		{{/each}}
+		</svg>
+	</div>
 </div>
 
+<div class>
+</div>
 

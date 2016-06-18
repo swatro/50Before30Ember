@@ -1,25 +1,38 @@
 @import "bootstrap";
 
+body{
+	font-family: 'Poiret One', monospace;
+	background-color: #fefcfa;
+}
+
+.header {
+	padding: 4em;	
+	background-color: #bad1ad
+}
+
+.map-body {
+	padding: 1em;
+}
+
 #visited-true{
-	fill:#6c5b8b;
+	fill:#bad1ad;
 	cursor: pointer;
 }
 
-#visited-false{
-	fill:#A9A9A9;
+#visited-true:hover{
+	fill:#c7dabd;
 }
 
-#visited-true:hover{
-	fill:#6c5b9b;
+#visited-false{
+	fill:#bad1ad;
+	fill-opacity: 0.3;
 }
 
 #text-visited-true {
-	fill: #D3D3D3;
 	cursor: pointer;
 }
 
 #text-visited-false {
-	fill: #D3D3D3;
 	cursor: default;
 }
 
