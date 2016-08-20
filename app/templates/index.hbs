@@ -9,9 +9,10 @@
 	<div class="container centered"> 
 		<svg height="630" width="930">
 		{{#each model as |state|}}
-
+			<svg id="wrapper-visited-{{state.visited}}">
 			<path {{action "stateDetails" state}} d="{{state.path}}" id="visited-{{state.visited}}"> </path>
 			<text {{action "stateDetails" state}} x="{{state.x}}" y="{{state.y}}" id="text-visited-{{state.visited}}"> {{state.abv}}  </text>
+			</svg>
 		{{/each}}
 		</svg>
 	</div>
