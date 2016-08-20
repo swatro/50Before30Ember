@@ -2,6 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
+    NODE_MODULES_CACHE: false,
     modulePrefix: 'fifty-before-thirty',
     environment: environment,
     baseURL: '/',
