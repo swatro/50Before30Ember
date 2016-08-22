@@ -1,7 +1,6 @@
 # Fifty-before-thirty
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[![Build Status](https://snap-ci.com/swatro/50Before30Ember/branch/master/build_image)](https://snap-ci.com/swatro/50Before30Ember/branch/master)
 
 ## Prerequisites
 
